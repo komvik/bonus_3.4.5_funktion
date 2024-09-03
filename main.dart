@@ -2,6 +2,8 @@ import 'anagram.dart';
 import 'prime_check.dart';
 import 'reverse_number.dart';
 import 'seconds_formatter.dart';
+import 'multiplication_advanced.dart';
+import 'text_split.dart';
 
 void main(List<String> args) {
 //Aufgabe1: Prime Checker
@@ -27,8 +29,12 @@ void main(List<String> args) {
   print(anagram("Brei", "Bier"));
 
 //Aufgabe6: Multiplication Advanced
+  print("___________Multiplication Advanced_______________");
+  print(multiplicationAdvanced(5, 5));
 
 //Aufgabe7: Text in Wörter einteilen
+  print("_______________textSplit_______________");
+  print(textSplit("bla      bla bla ble   juhu"));
 
 //Aufgabe8: Textanalyse
 
