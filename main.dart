@@ -1,10 +1,11 @@
+import 'anagram.dart';
 import 'prime_check.dart';
 import 'reverse_number.dart';
 import 'seconds_formatter.dart';
 
 void main(List<String> args) {
 //Aufgabe1: Prime Checker
-  print("Start Prime Checker");
+  print("_________________________Start Prime Checker__");
   int num = 53;
   if (prime_check(num)) {
     print("$num -> primzahl");
@@ -13,14 +14,17 @@ void main(List<String> args) {
   }
 
 //Aufgabe2: Reverse Number
-  print("Start Reverse Number");
+  print("_________________________Start Reverse Number___");
   int inputnum = 12345;
   print("Reverse Number $inputnum -> ${reverseNumber(inputnum)}");
 
 //Aufgabe3: Seconds Formatter
-  print(secondsFormatter(4325));
+  print("_________________________Seconds Formatter_____");
+  print(secondsFormatter(12345));
 
 //Aufgabe4: Anagram
+  print("_________________________Anagram_______________");
+  print(anagram("Brei", "Bier"));
 
 //Aufgabe6: Multiplication Advanced
 
